@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.btn {
+    border-color: #D53383;
+    color: #D53383;
+}
+
+.btn:hover {
+    background-color: #D53383;
+    border-color: #D53383;
+    color: white;
+}
+
+.nav-brand {
+    max-height: 38px;
+}
+
+.hero.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.hero-card, .hero-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #f7d6e6;
+}
+
+.list-group-item span {
+    color: #ffc000;
+}
+
+.list-group-item-icon {
+    width: 30px;
+}
+
+.carousel.slide {
+    max-width: 600px;
+    max-height: 700px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1.3rem;
+}
+
+.hero-item .hero-item-2 .carousel-item {
+    height: 100% !important;
+    width:  100% !important;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+
+.hero-collage-item-row {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-bottom: 40px;
+}
+
+.hero-collage-item h5 {
+    font-size: 1.3rem;
+}
+
+.hero-collage-item p {
+    font-size: 1.2rem;
+}
+
+.hero-collage-item .card {
+    /* margin-left: 10px; */
+}
+
+.btn-card {
+    /* border-color: #D53383;
+    color: #D53383;  */
+}
